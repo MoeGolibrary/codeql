@@ -1,7 +1,7 @@
 name: "CodeQL config"
 
 queries:
-  - uses: security
+  - uses: security-and-quality
 
 query-filters:
   - exclude:
