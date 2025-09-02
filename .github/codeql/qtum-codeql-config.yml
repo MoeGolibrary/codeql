@@ -1,0 +1,8 @@
+name: "CodeQL config"
+
+queries:
+  - uses: security
+
+query-filters:
+  - exclude:
+      id: actions/missing-workflow-permissions
